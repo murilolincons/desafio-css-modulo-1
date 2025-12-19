@@ -1,0 +1,45 @@
+@import url(../css/global.css);
+
+header {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.7)
+    ), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 300px;
+    margin: 0 auto;
+}
+h1, p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+div + h1 {
+  background: linear-gradient(90deg, rgb(187, 7, 16), rgb(243, 109, 115));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+button {
+    display: block;
+    width: 326px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 auto;
+    border: solid 2px;
+    border-image-source: linear-gradient(90deg, rgb(187, 7, 16), rgb(243, 109, 115));
+    border-image-repeat: none;
+    border-image-slice: 10;
+    background: linear-gradient(90deg, rgb(187, 7, 16), rgb(243, 109, 115));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
